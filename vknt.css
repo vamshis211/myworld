@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+body{
+    background-image: url(img1.jpg);
+    
+    background-size: cover;
+}
+.logo{
+    width: 200px;
+    position: absolute;
+    top: 1%;
+    left: 2%;
+    background-attachment: fixed;
+    background: linear-gradient(black) cross-fade(black);
+}
+.box{
+    width: 430px;
+    height: 600px;
+    margin: 8% auto;
+    background-color: rgba(10, 9, 9, 0.774);
+    border-radius: 5px;
+    position: relative;
+    
+}
+h1{
+    
+    margin-bottom: 10px;
+    color: #fff;
+}
+.box form{
+    width: 280px;
+    position: absolute;
+    top: 80px;
+
+    left: 60px;
+    
+    line-height: 60px;
+}
+form input{
+    width: 100%;
+    padding: 10px 5px;
+    margin: 1px 0;
+    
+    background: transparent rgb(247, 244, 244);
+}
+::placeholder{
+    color: #000;
+}
+.bttn{
+    margin-top: 300px;
+    margin-left: 60px;
+    padding: 10px 5px;
+    background-color: red;
+    color: #fff;
+    margin-bottom: 4px;
+    width: 68%;
+}
+pre small{
+    color: #fff;
+    
+    margin-left: 60px;
+}
+.fblogo{
+    height: 20px;
+    width: 20px;
+    color: #fff;
+    margin-top: 50px;
+    margin-left: 60px;
+    float: inline-start;
+}
+h5{
+    color: #fff;
+    
+}
+.new{
+    color: #fff;
+    margin-left: 60px;
+    margin-top: 25px;
+}
+.new h5 a{
+    text-decoration: none;
+    color: #fff;
+    
+}
+small{
+    color: #fff;
+}
