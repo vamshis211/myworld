@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-family: sans-serif;
+
+}
+.menu-bar{
+    background: rgb(246, 248, 248);
+    text-align: center;
+}
+.menu-bar ul{
+    display: inline-flex;
+}
+.menu-bar ul li{
+    width: 110px;
+    margin: 20px;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.menu-bar ul li a{
+    text-decoration: none;
+    color: black;
+}
+.active, .menu-bar ul li:hover {
+background: rgb(194, 214, 175);
+border-radius: 3px;
+}
+.lside{
+    width: 500px;
+    height: 500px;
+    top: 21%;
+    left: 15%;
+    background: rgba(196, 230, 230, 0.986);
+    position: absolute;
+}
+.lside ul{
+    margin-top: 20%;
+}
+.lside ul input{
+    margin-top: 40px;
+    margin-left: 15%;
+    width: 70%;
+    padding: 15px 15px;
+    background: #fff;
+}
+.lside ul li{
+    margin-left: 20%;
+    margin-top: 25px;
+}
+.rside{
+    width: 470px;
+    height: 600px;
+    top: 13%;
+    right: 15%;
+    background: rgba(196, 230, 230, 0.986);
+    position: absolute;
+}
+.rside div{
+    margin-left: 15%;
+    margin-top: 40px;
+    line-height: 40px;
+}
+hr{
+    margin: 2% 15%;
+}
+form{
+    margin-left: 15%;
+    margin-right: 15%;
+    line-height: 25px;
+    line-height: 40px;
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+form input{
+    width:100%;
+    padding: 8px 10px;
+    margin-bottom: 0px;
+}
+button{
+    margin: 15px 15%;
+    width: 75%;
+    padding: 9px 10px;
+
+}
+#hexa{
+    background-color: rgb(173, 98, 243);
+}
+form small{
+    font-size: 11px;
+}
+h6{
+    text-align: center;
+}
